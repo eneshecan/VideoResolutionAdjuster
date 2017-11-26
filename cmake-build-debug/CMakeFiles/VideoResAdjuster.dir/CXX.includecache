@@ -13,8 +13,6 @@ libavformat/avformat.h
 -
 libswscale/swscale.h
 -
-stdio.h
--
 iostream
 -
 
