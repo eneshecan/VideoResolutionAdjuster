@@ -1,8 +1,0 @@
-/home/xeco/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xeco/CLionProjects/VideoResAdjuster
-AVUTIL_INCLUDE_DIR is /usr/include/x86_64-linux-gnu
-AVUTIL_LIBRARY is /usr/lib/x86_64-linux-gnu/libavutil.so
-AVFORMAT_INCLUDE_DIR is /usr/include/x86_64-linux-gnu
-AVFORMAT_LIBRARY is /usr/lib/x86_64-linux-gnu/libavformat.so
--- Configuring done
--- Generating done
--- Build files have been written to: /home/xeco/CLionProjects/VideoResAdjuster/cmake-build-debug

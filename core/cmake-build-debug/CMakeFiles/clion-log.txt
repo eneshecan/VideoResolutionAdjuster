@@ -1,0 +1,22 @@
+/home/xeco/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core"
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+AVUTIL_INCLUDE_DIR is /usr/include/x86_64-linux-gnu
+AVUTIL_LIBRARY is /usr/lib/x86_64-linux-gnu/libavutil.so
+AVFORMAT_INCLUDE_DIR is /usr/include/x86_64-linux-gnu
+AVFORMAT_LIBRARY is /usr/lib/x86_64-linux-gnu/libavformat.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/cmake-build-debug

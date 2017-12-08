@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/FFMpeg.dir/main.cpp.o  -o FFMpeg /usr/lib/x86_64-linux-gnu/libavformat.so /usr/lib/x86_64-linux-gnu/libavcodec-ffmpeg.so /usr/lib/x86_64-linux-gnu/libswscale-ffmpeg.so /usr/lib/x86_64-linux-gnu/libavutil.so 
