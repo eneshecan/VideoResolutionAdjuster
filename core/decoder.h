@@ -21,12 +21,19 @@ struct metadata
     int video_stream_id_;
     int width_;
     int height_;
+    struct frame_rate
+    {
+        int num_;
+        int den_;
+    } frame_rate_;
+
     int audio_stream_id;
 
     metadata() :
             video_stream_id_(0),
             width_(0),
             height_(0),
+            frame_rate_({}),
             audio_stream_id(0)
     {}
 };

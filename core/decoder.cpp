@@ -43,6 +43,9 @@ int decoder::init(const char *filename, metadata &m_data) {
     for(uint i=0; i<format_ctx_->nb_streams; i++)
         if(format_ctx_->streams[i]->codec->codec_type==AVMEDIA_TYPE_VIDEO) {
             metadata_.video_stream_id_ = i;
+        }
+        else if(format_ctx_->streams[i]->codec->codec_type==AVMEDIA_TYPE_AUDIO) {
+            metadata_.audio_stream_id = i;
             break;
         }
 
@@ -69,6 +72,8 @@ int decoder::init(const char *filename, metadata &m_data) {
 
     metadata_.width_ = codec_ctx_->width;
     metadata_.height_ = codec_ctx_->height;
+    metadata_.frame_rate_.num_ = codec_ctx_->framerate.num;
+    metadata_.frame_rate_.den_ = codec_ctx_->framerate.den;
 
     frame_=av_frame_alloc();
     if(!frame_)

@@ -15,7 +15,7 @@ extern "C"
 #define av_frame_free avcodec_free_frame
 #endif
 
-void SaveFrame(uint8_t *frame, int linesize, int width, int height, int iFrame) {
+void SaveFrame(uint8_t *frame, int line_size, int width, int height, int iFrame) {
     FILE *pFile;
     char szFilename[32];
     int  y;
@@ -31,9 +31,8 @@ void SaveFrame(uint8_t *frame, int linesize, int width, int height, int iFrame) 
 
     // Write pixel data
     for(y=0; y<height; y++)
-        fwrite(frame + y*linesize, 1, (size_t)width*3, pFile);
+        fwrite(frame + y*line_size, 1, (size_t)width*3, pFile);
 
-    // Close file
     fclose(pFile);
 }
 
@@ -52,17 +51,16 @@ int main(int argc, char *argv[]) {
     do
     {
         uint8_t *frame_rgb = nullptr;
-        int linesize = 0;
-        result = video_decoder.get_next_frame(stream_id, &frame_rgb, linesize);
+        int line_size = 0;
+        result = video_decoder.get_next_frame(stream_id, &frame_rgb, line_size);
 
         if(stream_id == m_data.video_stream_id_)
         {
             if(frame_rgb)
             {
                 frame_count++;
-                SaveFrame(frame_rgb, linesize, m_data.width_, m_data.height_, frame_count);
+                SaveFrame(frame_rgb, line_size, m_data.width_, m_data.height_, frame_count);
             }
-
         }
 
     } while(result == 0);
