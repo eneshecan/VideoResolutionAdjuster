@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.cpp">
+			<Option target="VideoResAdjuster"/>
+		</Unit>
+		<Unit filename="/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h">
+			<Option target="VideoResAdjuster"/>
+		</Unit>
 		<Unit filename="/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/main.cpp">
 			<Option target="VideoResAdjuster"/>
 		</Unit>

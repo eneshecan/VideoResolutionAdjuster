@@ -123,6 +123,33 @@ VideoResAdjuster/fast:
 	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/build
 .PHONY : VideoResAdjuster/fast
 
+decoder.o: decoder.cpp.o
+
+.PHONY : decoder.o
+
+# target to build an object file
+decoder.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o
+.PHONY : decoder.cpp.o
+
+decoder.i: decoder.cpp.i
+
+.PHONY : decoder.i
+
+# target to preprocess a source file
+decoder.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/decoder.cpp.i
+.PHONY : decoder.cpp.i
+
+decoder.s: decoder.cpp.s
+
+.PHONY : decoder.s
+
+# target to generate assembly for a file
+decoder.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/decoder.cpp.s
+.PHONY : decoder.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... VideoResAdjuster"
+	@echo "... decoder.o"
+	@echo "... decoder.i"
+	@echo "... decoder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

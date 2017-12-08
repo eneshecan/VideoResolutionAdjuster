@@ -12,77 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c247eea2-9232-42e8-9dfc-9ad7019f38dd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/VideoResAdjuster.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/FFMpeg.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/VideoResAdjuster" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/VideoResAdjuster.cbp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame1.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame10.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame11.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame12.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame13.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame14.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame15.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame16.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame17.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame18.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame19.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame2.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame20.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame21.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame22.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame23.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame24.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame25.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame3.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame4.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame5.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame6.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame7.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame8.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/frames/frame9.ppm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../main.cpp" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/decoder.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/decoder.h" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VideoResAdjuster" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VideoResAdjuster.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/VideoResAdjuster.cbp" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,14 +54,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+              <folding>
+                <element signature="e#114#134#0" expanded="true" />
+                <element signature="e#242#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decoder.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decoder.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+              <folding>
+                <element signature="e#27#58#0" expanded="true" />
+                <element signature="e#128#147#0" expanded="true" />
+                <element signature="e#252#335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decoder.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/decoder.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="119" column="70" lean-forward="true" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frame.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/x86_64-linux-gnu/libavutil/frame.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="181" column="40" lean-forward="false" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mem.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/x86_64-linux-gnu/libavutil/mem.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="194" column="5" lean-forward="false" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="146" column="64" lean-forward="false" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
               <folding>
                 <element signature="e#220#303#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avcodec.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/x86_64-linux-gnu/libavcodec/avcodec.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="5094" column="4" lean-forward="false" selection-start-line="5094" selection-start-column="4" selection-end-line="5094" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avformat.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/x86_64-linux-gnu/libavformat/avformat.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30772">
+              <caret line="2198" column="4" lean-forward="false" selection-start-line="2198" selection-start-column="4" selection-end-line="2198" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,6 +148,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>convert</find>
+      <find>buffer_</find>
+      <find>packet</find>
+      <find>wid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,6 +160,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/decoder.h" />
+        <option value="$PROJECT_DIR$/decoder.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -162,6 +193,11 @@
             <path>
               <item name="VideoResAdjuster" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VideoResAdjuster" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,12 +254,13 @@
       <workItem from="1512431870618" duration="481000" />
       <workItem from="1512432379422" duration="1239000" />
       <workItem from="1512682351075" duration="31000" />
-      <workItem from="1512739878473" duration="54000" />
+      <workItem from="1512739878473" duration="8958000" />
+      <workItem from="1512765400426" duration="1923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7733000" />
+    <option name="totallyTimeSpent" value="18560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,15 +276,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25688756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34634975" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39728352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -326,7 +363,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -341,10 +378,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <folding>
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#27#58#0" expanded="true" />
+            <element signature="e#128#147#0" expanded="true" />
+            <element signature="e#252#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1526">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="e#220#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/libavcodec/avcodec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62874">
+          <caret line="4491" column="4" lean-forward="false" selection-start-line="4491" selection-start-column="4" selection-end-line="4491" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/libavformat/avformat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30772">
+          <caret line="2198" column="4" lean-forward="false" selection-start-line="2198" selection-start-column="4" selection-end-line="2198" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1442">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2058">
           <caret line="147" column="38" lean-forward="false" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
           <folding>
-            <element signature="e#220#303#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -362,7 +465,8 @@
         <state relative-caret-position="2408">
           <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
           <folding>
-            <element signature="e#220#303#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -380,7 +484,8 @@
         <state relative-caret-position="462">
           <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
           <folding>
-            <element signature="e#220#303#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -398,7 +503,8 @@
         <state relative-caret-position="2086">
           <caret line="149" column="41" lean-forward="true" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
           <folding>
-            <element signature="e#220#303#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -416,7 +522,8 @@
         <state relative-caret-position="672">
           <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding>
-            <element signature="e#220#303#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,7 +541,8 @@
         <state relative-caret-position="112">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
-            <element signature="e#220#303#0" expanded="true" />
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,21 +555,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/frames/frame1.ppm" />
-    <entry file="file:///usr/include/x86_64-linux-gnu/libavformat/avformat.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3739">
-          <caret line="1831" column="2" lean-forward="false" selection-start-line="1831" selection-start-column="2" selection-end-line="1831" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/x86_64-linux-gnu/libavcodec/avcodec.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="1467" column="2" lean-forward="false" selection-start-line="1467" selection-start-column="2" selection-end-line="1467" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/frames/frame2.ppm" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/frames/frame4.ppm" />
     <entry file="file:///usr/include/x86_64-linux-gnu/libswscale/swscale.h">
@@ -471,14 +564,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/x86_64-linux-gnu/libavutil/frame.h">
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file:///usr/include/x86_64-linux-gnu/libavformat/avformat.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
+        <state relative-caret-position="30772">
+          <caret line="2198" column="4" lean-forward="false" selection-start-line="2198" selection-start-column="4" selection-end-line="2198" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -487,13 +581,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file:///usr/include/x86_64-linux-gnu/libavutil/mem.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="194" column="5" lean-forward="false" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/libavcodec/avcodec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="5094" column="4" lean-forward="false" selection-start-line="5094" selection-start-column="4" selection-end-line="5094" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="146" column="64" lean-forward="false" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="64" />
           <folding>
             <element signature="e#220#303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          <folding>
+            <element signature="e#27#58#0" expanded="true" />
+            <element signature="e#128#147#0" expanded="true" />
+            <element signature="e#252#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/libavutil/frame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="181" column="40" lean-forward="false" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="e#114#134#0" expanded="true" />
+            <element signature="e#242#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="119" column="70" lean-forward="true" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>

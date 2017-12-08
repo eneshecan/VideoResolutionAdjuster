@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VideoResAdjuster.dir/main.cpp.o"
+  "CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o"
   "VideoResAdjuster.pdb"
   "VideoResAdjuster"
 )
