@@ -4,6 +4,11 @@
 CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o: ../decoder.cpp
 CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o: ../decoder.h
 
+CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o: ../decoder.h
+CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o: ../encoder.cpp
+CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o: ../encoder.h
+
 CMakeFiles/VideoResAdjuster.dir/main.cpp.o: ../decoder.h
+CMakeFiles/VideoResAdjuster.dir/main.cpp.o: ../encoder.h
 CMakeFiles/VideoResAdjuster.dir/main.cpp.o: ../main.cpp
 

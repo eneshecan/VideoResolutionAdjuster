@@ -4,6 +4,11 @@
 CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o
  /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.cpp
  /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
+CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o
+ /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
+ /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.cpp
+ /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
 CMakeFiles/VideoResAdjuster.dir/main.cpp.o
  /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
+ /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
  /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/main.cpp

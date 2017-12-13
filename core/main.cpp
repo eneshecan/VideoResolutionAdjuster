@@ -4,14 +4,17 @@ extern "C"
 }
 
 #include "decoder.h"
+#include "encoder.h"
 
-void SaveFrame(AVFrame *frame, int width, int height, int iFrame) {
+
+/* Saves RGB frame onto disk */
+void SaveFrame(AVFrame *frame, int width, int height, int frame_count) {
     FILE *pFile;
     char szFilename[32];
     int  y;
 
     // Open file
-    sprintf(szFilename, "frames/frame%d.ppm", iFrame);
+    sprintf(szFilename, "frames/frame%d.ppm", frame_count);
     pFile=fopen(szFilename, "wb");
     if(pFile== nullptr)
         return;
@@ -34,26 +37,35 @@ int main(int argc, char *argv[]) {
     if(video_decoder.init(argv[1], m_data) == -1)
         return 0;
 
+    encoder video_encoder;
+    video_encoder.init(argv[1], m_data);
+
     int stream_id = 0;
     int result = 0;
     int frame_count = 0;
 
     do
     {
-        AVFrame *frame_rgb = nullptr;
+        AVFrame *frame = nullptr;
         int line_size = 0;
-        result = video_decoder.get_next_frame(stream_id, &frame_rgb, line_size);
+        result = video_decoder.get_next_frame(stream_id, &frame, line_size);
 
         if(stream_id == m_data.video_stream_id_)
         {
-            if(frame_rgb)
+            if(frame)
             {
                 frame_count++;
-                SaveFrame(frame_rgb, m_data.width_, m_data.height_, frame_count);
+                int encoded = video_encoder.encode_frame(frame, frame_count);
+                if(encoded == -1)
+                    std::cout << "Could not encode frame " << frame_count << std::endl;
+
+                //SaveFrame(frame, m_data.width_, m_data.height_, frame_count);
             }
         }
 
     } while(result == 0);
+
+    video_encoder.finalize();
 
     return 0;
 }

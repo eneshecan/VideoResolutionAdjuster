@@ -18,6 +18,7 @@ extern "C"
 
 struct metadata
 {
+    int bit_rate_;
     int video_stream_id_;
     int width_;
     int height_;
@@ -45,7 +46,7 @@ public:
     ~decoder();
 
     int init(const char *filename, metadata &m_data);
-    int get_next_frame(int &stream_id, AVFrame **frame_rgb, int &linesize);
+    int get_next_frame(int &stream_id, AVFrame **frame, int &linesize);
 
 private:
     AVFormatContext   *format_ctx_;
@@ -53,9 +54,7 @@ private:
     AVCodecContext    *codec_ctx_;
     AVCodec           *codec_;
     AVFrame           *frame_;
-    AVFrame           *frame_rgb_;
     AVPacket          packet_;
-    uint8_t           *buffer_;
     SwsContext        *sws_ctx_;
 
     metadata          metadata_;

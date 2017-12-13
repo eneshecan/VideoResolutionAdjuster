@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.cpp" "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o"
+  "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.cpp" "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o"
   "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/main.cpp" "/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/cmake-build-debug/CMakeFiles/VideoResAdjuster.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -150,6 +150,33 @@ decoder.cpp.s:
 	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/decoder.cpp.s
 .PHONY : decoder.cpp.s
 
+encoder.o: encoder.cpp.o
+
+.PHONY : encoder.o
+
+# target to build an object file
+encoder.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o
+.PHONY : encoder.cpp.o
+
+encoder.i: encoder.cpp.i
+
+.PHONY : encoder.i
+
+# target to preprocess a source file
+encoder.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/encoder.cpp.i
+.PHONY : encoder.cpp.i
+
+encoder.s: encoder.cpp.s
+
+.PHONY : encoder.s
+
+# target to generate assembly for a file
+encoder.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/encoder.cpp.s
+.PHONY : encoder.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... decoder.o"
 	@echo "... decoder.i"
 	@echo "... decoder.s"
+	@echo "... encoder.o"
+	@echo "... encoder.i"
+	@echo "... encoder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

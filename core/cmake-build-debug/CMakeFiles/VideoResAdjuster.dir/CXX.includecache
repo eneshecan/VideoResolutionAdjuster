@@ -22,9 +22,29 @@ iostream
 string
 -
 
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.cpp
+encoder.h
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
+
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
+libavcodec/avcodec.h
+-
+libavformat/avformat.h
+-
+libswscale/swscale.h
+-
+iostream
+-
+string
+-
+decoder.h
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
+
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/main.cpp
 libavcodec/avcodec.h
 -
 decoder.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
+encoder.h
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
 
