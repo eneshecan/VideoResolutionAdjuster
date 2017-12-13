@@ -25,12 +25,6 @@ string
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/main.cpp
 libavcodec/avcodec.h
 -
-libavformat/avformat.h
--
-libswscale/swscale.h
--
 decoder.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
-iostream
--
 

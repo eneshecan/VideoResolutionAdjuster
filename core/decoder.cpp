@@ -108,7 +108,7 @@ int decoder::init(const char *filename, metadata &m_data) {
     return 0;
 }
 
-int decoder::get_next_frame(int &stream_id, uint8_t **frame_rgb, int &linesize) {
+int decoder::get_next_frame(int &stream_id, AVFrame **frame_rgb, int &linesize) {
 
     if (av_read_frame(format_ctx_, &packet_) < 0)
         return -1;
@@ -126,8 +126,7 @@ int decoder::get_next_frame(int &stream_id, uint8_t **frame_rgb, int &linesize) 
                       frame_->linesize, 0, codec_ctx_->height,
                       frame_rgb_->data, frame_rgb_->linesize);
 
-            *frame_rgb = frame_rgb_->data[0];
-            linesize = frame_rgb_->linesize[0];
+            *frame_rgb = frame_rgb_;
         }
     }
 

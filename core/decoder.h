@@ -45,7 +45,7 @@ public:
     ~decoder();
 
     int init(const char *filename, metadata &m_data);
-    int get_next_frame(int &stream_id, uint8_t **frame_rgb, int &linesize);
+    int get_next_frame(int &stream_id, AVFrame **frame_rgb, int &linesize);
 
 private:
     AVFormatContext   *format_ctx_;
