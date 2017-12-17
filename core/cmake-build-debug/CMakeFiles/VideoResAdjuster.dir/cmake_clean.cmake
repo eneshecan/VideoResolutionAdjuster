@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/VideoResAdjuster.dir/main.cpp.o"
   "CMakeFiles/VideoResAdjuster.dir/decoder.cpp.o"
   "CMakeFiles/VideoResAdjuster.dir/encoder.cpp.o"
+  "CMakeFiles/VideoResAdjuster.dir/colorspace_converter.cpp.o"
   "VideoResAdjuster.pdb"
   "VideoResAdjuster"
 )

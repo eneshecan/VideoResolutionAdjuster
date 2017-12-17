@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/colorspace_converter.cpp
+colorspace_converter.h
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/colorspace_converter.h
+
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/colorspace_converter.h
+libavcodec/avcodec.h
+-
+libavformat/avformat.h
+-
+libswscale/swscale.h
+-
+
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.cpp
 decoder.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
@@ -47,4 +59,6 @@ decoder.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/decoder.h
 encoder.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
+colorspace_converter.h
+/home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/colorspace_converter.h
 

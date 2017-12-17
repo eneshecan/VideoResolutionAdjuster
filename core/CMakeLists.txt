@@ -91,7 +91,7 @@ set(
         ${AVUTIL_LIBRARY}
 )
 
-set(SOURCE_FILES main.cpp decoder.cpp decoder.h encoder.cpp encoder.h)
+set(SOURCE_FILES main.cpp decoder.cpp decoder.h encoder.cpp encoder.h colorspace_converter.cpp colorspace_converter.h)
 
 add_executable(VideoResAdjuster ${SOURCE_FILES})
 

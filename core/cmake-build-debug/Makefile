@@ -123,6 +123,33 @@ VideoResAdjuster/fast:
 	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/build
 .PHONY : VideoResAdjuster/fast
 
+colorspace_converter.o: colorspace_converter.cpp.o
+
+.PHONY : colorspace_converter.o
+
+# target to build an object file
+colorspace_converter.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/colorspace_converter.cpp.o
+.PHONY : colorspace_converter.cpp.o
+
+colorspace_converter.i: colorspace_converter.cpp.i
+
+.PHONY : colorspace_converter.i
+
+# target to preprocess a source file
+colorspace_converter.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/colorspace_converter.cpp.i
+.PHONY : colorspace_converter.cpp.i
+
+colorspace_converter.s: colorspace_converter.cpp.s
+
+.PHONY : colorspace_converter.s
+
+# target to generate assembly for a file
+colorspace_converter.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoResAdjuster.dir/build.make CMakeFiles/VideoResAdjuster.dir/colorspace_converter.cpp.s
+.PHONY : colorspace_converter.cpp.s
+
 decoder.o: decoder.cpp.o
 
 .PHONY : decoder.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... VideoResAdjuster"
+	@echo "... colorspace_converter.o"
+	@echo "... colorspace_converter.i"
+	@echo "... colorspace_converter.s"
 	@echo "... decoder.o"
 	@echo "... decoder.i"
 	@echo "... decoder.s"

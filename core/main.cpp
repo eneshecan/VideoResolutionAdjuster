@@ -5,6 +5,7 @@ extern "C"
 
 #include "decoder.h"
 #include "encoder.h"
+#include "colorspace_converter.h"
 
 
 /* Saves RGB frame onto disk */
@@ -34,11 +35,19 @@ int main(int argc, char *argv[]) {
     decoder video_decoder;
     metadata m_data;
 
+    std::cout << argv[1] << std::endl;
+
     if(video_decoder.init(argv[1], m_data) == -1)
         return 0;
 
     encoder video_encoder;
     video_encoder.init(argv[1], m_data);
+
+    colorspace_converter c_converter_to_rgb;
+    c_converter_to_rgb.init(PIX_FMT_YUV420P, PIX_FMT_RGB24, m_data.width_, m_data.height_, m_data.width_, m_data.height_);
+
+    colorspace_converter c_converter_to_yuv;
+    c_converter_to_yuv.init(PIX_FMT_RGB24, PIX_FMT_YUV420P, m_data.width_, m_data.height_, m_data.width_, m_data.height_);
 
     int stream_id = 0;
     int result = 0;
@@ -55,11 +64,17 @@ int main(int argc, char *argv[]) {
             if(frame)
             {
                 frame_count++;
-                int encoded = video_encoder.encode_frame(frame, frame_count);
+
+                AVFrame *frame_rgb = c_converter_to_rgb.convert(frame);
+
+                // Resizer will operate here
+
+                AVFrame *frame_yuv = c_converter_to_yuv.convert(frame_rgb);
+
+
+                int encoded = video_encoder.encode_frame(frame_yuv, frame_count);
                 if(encoded == -1)
                     std::cout << "Could not encode frame " << frame_count << std::endl;
-
-                //SaveFrame(frame, m_data.width_, m_data.height_, frame_count);
             }
         }
 
