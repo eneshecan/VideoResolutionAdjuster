@@ -61,4 +61,6 @@ encoder.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/encoder.h
 colorspace_converter.h
 /home/xeco/Desktop/cmpe484/Final Project/VideoResAdjuster/core/colorspace_converter.h
+fstream
+-
 

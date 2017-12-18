@@ -33,5 +33,5 @@
 
 # Custom
 
-*frames/
+*.ppm
 *.mpeg

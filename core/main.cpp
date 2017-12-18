@@ -7,6 +7,22 @@ extern "C"
 #include "encoder.h"
 #include "colorspace_converter.h"
 
+#include <fstream>
+
+void save_frame_txt(AVFrame *frame_rgb, int width, int height, int frame_count)
+{
+    std::ofstream frame_file;
+    frame_file.open("frames/frame"+std::to_string(frame_count)+".txt", std::ios::out);
+
+    for(int i=0; i<width*height*3; ++i)
+    {
+        frame_file << std::to_string(frame_rgb->data[0][i]) << " ";
+    }
+
+    frame_file << std::endl;
+
+    frame_file.close();
+}
 
 /* Saves RGB frame onto disk */
 void SaveFrame(AVFrame *frame, int width, int height, int frame_count) {
@@ -68,6 +84,7 @@ int main(int argc, char *argv[]) {
                 AVFrame *frame_rgb = c_converter_to_rgb.convert(frame);
 
                 // Resizer will operate here
+                save_frame_txt(frame_rgb, m_data.width_, m_data.height_, frame_count);
 
                 AVFrame *frame_yuv = c_converter_to_yuv.convert(frame_rgb);
 
