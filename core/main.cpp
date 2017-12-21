@@ -83,11 +83,10 @@ int main(int argc, char *argv[]) {
 
                 AVFrame *frame_rgb = c_converter_to_rgb.convert(frame);
 
-                // Resizer will operate here
                 save_frame_txt(frame_rgb, m_data.width_, m_data.height_, frame_count);
+                // Resizer will operate here
 
                 AVFrame *frame_yuv = c_converter_to_yuv.convert(frame_rgb);
-
 
                 int encoded = video_encoder.encode_frame(frame_yuv, frame_count);
                 if(encoded == -1)
