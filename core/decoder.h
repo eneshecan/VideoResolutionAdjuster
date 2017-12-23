@@ -45,7 +45,7 @@ public:
     decoder();
     ~decoder();
 
-    int init(const char *filename, metadata &m_data);
+    int init(std:: string filename, metadata &m_data);
     int get_next_frame(int &stream_id, AVFrame **frame, int &linesize);
 
 private:

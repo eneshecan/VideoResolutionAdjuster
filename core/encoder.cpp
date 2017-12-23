@@ -23,7 +23,7 @@ encoder::~encoder() {
     av_free(frame_);
 }
 
-int encoder::init(const char *filename, metadata m_data) {
+int encoder::init(std::string filename, std::string resolution, metadata m_data) {
     avcodec_register_all();
 
     /* find the mpeg1 video encoder */
@@ -53,9 +53,12 @@ int encoder::init(const char *filename, metadata m_data) {
         exit(1);
     }
 
-    f = fopen("sample.mpeg", "wb");
+    std::string plain_filename = filename.substr(0, filename.find('.'));
+    std::string target_filename = plain_filename + "-" + resolution + ".mp4";
+
+    f = fopen(target_filename.c_str(), "wb");
     if (!f) {
-        fprintf(stderr, "could not open %s\n", "sample.mpeg");
+        fprintf(stderr, "could not open %s\n", target_filename);
         return -1;
     }
 

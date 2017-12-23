@@ -16,7 +16,7 @@ public:
     encoder();
     ~encoder();
 
-    int init(const char *filename, metadata m_data);
+    int init(std::string filename, std::string resolution, metadata m_data);
     int encode_frame(AVFrame *frame, int frame_count);
     void finalize();
 

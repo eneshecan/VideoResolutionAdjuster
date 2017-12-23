@@ -18,10 +18,10 @@ decoder::~decoder() {
 }
 
 /* Returns -1 in case of failure */
-int decoder::init(const char *filename, metadata &m_data) {
+int decoder::init(std::string filename, metadata &m_data) {
     av_register_all();
 
-    int result = avformat_open_input(&format_ctx_, filename, nullptr, nullptr);
+    int result = avformat_open_input(&format_ctx_, filename.c_str(), nullptr, nullptr);
 
     if(result != 0)
         return -1;
@@ -30,7 +30,7 @@ int decoder::init(const char *filename, metadata &m_data) {
         return -1;
     }
 
-    av_dump_format(format_ctx_, 0, filename, 0);
+    av_dump_format(format_ctx_, 0, filename.c_str(), 0);
 
     for(uint i=0; i<format_ctx_->nb_streams; i++)
         if(format_ctx_->streams[i]->codec->codec_type==AVMEDIA_TYPE_VIDEO) {
