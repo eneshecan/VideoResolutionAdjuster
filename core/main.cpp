@@ -15,7 +15,7 @@ void resize(uint8_t* input, uint8_t* output, int sourceWidth, int sourceHeight, 
     float x_ratio = ((float)(sourceWidth - 1)) / targetWidth;
     float y_ratio = ((float)(sourceHeight - 1)) / targetHeight;
     float x_diff, y_diff, blue, red, green ;
-    uint8_t offset = 0 ;
+    int offset = 0 ;
 
     for (int i = 0; i < targetHeight; i++) 
     {
