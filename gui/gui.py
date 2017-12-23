@@ -1,5 +1,6 @@
 from Tkinter import *
 import Tkinter, tkFileDialog
+import os
 
 class Chooser:
     def __init__(self, master):
@@ -10,7 +11,7 @@ class Chooser:
         label = Label(master, text="Select Target Resolution")
         label.pack(fill=X, padx=10, pady=10)
 
-        option_res = OptionMenu(master, self.resolution, "360p", "480p", "720p", command=self.selected)
+        option_res = OptionMenu(master, self.resolution, "240p", "360p", "480p", "720p", "1080p", command=self.selected)
         option_res.pack(padx=10, pady=10)
 
         button_choose = Button(master, text='Choose File', command=self.choose_file)
@@ -20,14 +21,17 @@ class Chooser:
         button_start.pack(fill=X, padx=5)
 
     def selected(self, res):
-        print "Resolution " + res + " is chosen."
+        print "Resolution " + self.resolution.get() + " is chosen."
 
     def choose_file(self):
         self.filename = tkFileDialog.askopenfilename(initialdir = "/home",  filetypes=[('All', '*'), ('mp4','*.mp4'), ('mpeg', '*mpeg')])
-        print self.filename
+        print "File " + self.filename + " is chosen."
 
     def start(self):
-        pass
+        print "Resizer Converting your video..."
+        #print "../core/cmake-build-debug/VideoResAdjuster " + self.filename + " " + self.resolution.get()
+        os.system("../core/cmake-build-debug/VideoResAdjuster " + self.filename + " " + self.resolution.get())
+        print "Finished."
 
 
 master = Tkinter.Tk()
