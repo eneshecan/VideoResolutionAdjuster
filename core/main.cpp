@@ -8,7 +8,41 @@ extern "C"
 #include "colorspace_converter.h"
 
 #include <fstream>
+void resize(uint8_t* input, uint8_t* output, int sourceWidth, int sourceHeight, int targetWidth, int targetHeight) 
+{    
+    int  b, c, d, x, y, index;
+    uint8_t a;
+    float x_ratio = ((float)(sourceWidth - 1)) / targetWidth;
+    float y_ratio = ((float)(sourceHeight - 1)) / targetHeight;
+    float x_diff, y_diff, blue, red, green ;
+    uint8_t offset = 0 ;
 
+    for (int i = 0; i < targetHeight; i++) 
+    {
+        for (int j = 0; j < targetWidth; j++) 
+        {
+            x = (int)(x_ratio * j) ;
+            y = (int)(y_ratio * i) ;
+            //x_diff = (x_ratio * j) - x ;
+            //y_diff = (y_ratio * i) - y ;
+            index = (y * sourceWidth + x)*3 ;                
+            a = input[index] ;
+            
+            // blue element
+            blue = a+2; 
+            // green element
+            green = a+1;
+
+            // red element
+            red = a;
+
+            output [offset++] =red;
+	    output [offset++] =green;
+	    output [offset++] =blue;
+	    
+	    
+	}
+}
 void save_frame_txt(AVFrame *frame_rgb, int width, int height, int frame_count)
 {
     std::ofstream frame_file;
