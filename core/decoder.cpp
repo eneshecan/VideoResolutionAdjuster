@@ -65,8 +65,8 @@ int decoder::init(std::string filename, metadata &m_data) {
     metadata_.bit_rate_ = codec_ctx_->bit_rate;
     metadata_.width_ = codec_ctx_->width;
     metadata_.height_ = codec_ctx_->height;
-    metadata_.frame_rate_.num_ = codec_ctx_->framerate.num;
-    metadata_.frame_rate_.den_ = codec_ctx_->framerate.den;
+    metadata_.frame_rate_.num_ = format_ctx_->streams[metadata_.video_stream_id_]->r_frame_rate.num;
+    metadata_.frame_rate_.den_ = format_ctx_->streams[metadata_.video_stream_id_]->r_frame_rate.den;
 
     frame_=av_frame_alloc();
     if(!frame_)

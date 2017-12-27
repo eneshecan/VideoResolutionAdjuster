@@ -75,6 +75,8 @@ int encoder::init(std::string filename, std::string resolution, metadata m_data)
     frame_->linesize[1] = codec_ctx_->width / 2;
     frame_->linesize[2] = codec_ctx_->width / 2;
 
+    //std::cout << std::to_string(frame_->side_data[0]->size) << std::endl;
+
     return 0;
 }
 
