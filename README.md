@@ -5,4 +5,4 @@ By lowering high resolution, 4K/8K videos will be played comfortably on old mach
 FFMpeg version 2.8.11 or higher
 
 ## Run
-With the command `core/cmake-build-debug/VideoResAdjuster <path-to-the-video>`
+`gui/gui.py`
